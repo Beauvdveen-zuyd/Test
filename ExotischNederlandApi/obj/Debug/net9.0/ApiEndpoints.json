@@ -1,0 +1,464 @@
+[
+  {
+    "ContainingType": "MinimalApiExample.Controllers.FotosController",
+    "Method": "HaalAlleFotosOp",
+    "RelativePath": "api/Fotos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.FotosController",
+    "Method": "VoegFotoToe",
+    "RelativePath": "api/Fotos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Foto",
+        "Type": "Fotos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.FotosController",
+    "Method": "VerwijderFoto",
+    "RelativePath": "api/Fotos/{naam}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "naam",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.FotoWaarnemingController",
+    "Method": "HaalAlleFotoWaarnemingenOp",
+    "RelativePath": "api/FotoWaarneming",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.FotoWaarnemingController",
+    "Method": "VoegfotoWaarnemingToe",
+    "RelativePath": "api/FotoWaarneming",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fotoWaarneming",
+        "Type": "FotoWaarneming",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.FotoWaarnemingController",
+    "Method": "VerwijderfotoWaarneming",
+    "RelativePath": "api/FotoWaarneming/{naam}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "naam",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.GebruikersController",
+    "Method": "HaalAlleGebruikersOp",
+    "RelativePath": "api/Gebruikers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.GebruikersController",
+    "Method": "VoegGebruikerToe",
+    "RelativePath": "api/Gebruikers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Gebruiker",
+        "Type": "Gebruiker",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.GebruikersController",
+    "Method": "VerwijderGebruiker",
+    "RelativePath": "api/Gebruikers/{naam}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "naam",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.GeluidenController",
+    "Method": "HaalAlleGeluidenOp",
+    "RelativePath": "api/Geluiden",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.GeluidenController",
+    "Method": "VoegGeluidToe",
+    "RelativePath": "api/Geluiden",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Geluid",
+        "Type": "Geluiden",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.GeluidenController",
+    "Method": "VerwijderGeluid",
+    "RelativePath": "api/Geluiden/{naam}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "naam",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.GeluidWaarnemingController",
+    "Method": "HaalAlleGeluidWaarnemingenOp",
+    "RelativePath": "api/GeluidWaarneming",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.GeluidWaarnemingController",
+    "Method": "VoegGeluidWaarnemingToe",
+    "RelativePath": "api/GeluidWaarneming",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "geluidWaarneming",
+        "Type": "GeluidWaarneming",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.GeluidWaarnemingController",
+    "Method": "VerwijderGeluidWaarneming",
+    "RelativePath": "api/GeluidWaarneming/{naam}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "naam",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.LocatiesController",
+    "Method": "HaalAlleLocatiesOp",
+    "RelativePath": "api/Locaties",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.LocatiesController",
+    "Method": "VoegLocatieToe",
+    "RelativePath": "api/Locaties",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Locatie",
+        "Type": "Locatie",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.LocatiesController",
+    "Method": "VerwijderLocatie",
+    "RelativePath": "api/Locaties/{naam}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "naam",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.SoortenController",
+    "Method": "HaalAlleSoortenOp",
+    "RelativePath": "api/Soorten",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.SoortenController",
+    "Method": "VoegSoortToe",
+    "RelativePath": "api/Soorten",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Soort",
+        "Type": "Soorten",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.SoortenController",
+    "Method": "VerwijderSoort",
+    "RelativePath": "api/Soorten/{naam}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "naam",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.WaarnemingenController",
+    "Method": "HaalAlleWaarnemingenOp",
+    "RelativePath": "api/Waarnemingen",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.WaarnemingenController",
+    "Method": "VoegWaarnemingToe",
+    "RelativePath": "api/Waarnemingen",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "waarneming",
+        "Type": "Waarneming",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.WaarnemingenController",
+    "Method": "VerwijderWaarneming",
+    "RelativePath": "api/Waarnemingen/{naam}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "naam",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.WeblinksController",
+    "Method": "HaalAlleWeblinksOp",
+    "RelativePath": "api/Weblinks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.WeblinksController",
+    "Method": "VoegWeblinkToe",
+    "RelativePath": "api/Weblinks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Weblink",
+        "Type": "Weblinks",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.WeblinksController",
+    "Method": "VerwijderWeblink",
+    "RelativePath": "api/Weblinks/{naam}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "naam",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.WeblinkWaarnemingenController",
+    "Method": "HaalAlleWeblinkWaarnemingenOp",
+    "RelativePath": "api/WeblinkWaarnemingen",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.WeblinkWaarnemingenController",
+    "Method": "VoegWeblinkWaarnemingToe",
+    "RelativePath": "api/WeblinkWaarnemingen",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "weblinkWaarneming",
+        "Type": "WeblinkWaarneming",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.WeblinkWaarnemingenController",
+    "Method": "VerwijderWeblinkWaarneming",
+    "RelativePath": "api/WeblinkWaarnemingen/{naam}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "naam",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.WetenschappelijkenamenController",
+    "Method": "HaalAlleWetenschappelijkenamenOp",
+    "RelativePath": "api/Wetenschappelijkenamen",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.WetenschappelijkenamenController",
+    "Method": "VoegWetenschappelijkenaamToe",
+    "RelativePath": "api/Wetenschappelijkenamen",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "wetenschappelijkeNaam",
+        "Type": "Wetenschappelijkenaam",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalApiExample.Controllers.WetenschappelijkenamenController",
+    "Method": "VerwijderWetenschappelijkenaam",
+    "RelativePath": "api/Wetenschappelijkenamen/{naam}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "naam",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

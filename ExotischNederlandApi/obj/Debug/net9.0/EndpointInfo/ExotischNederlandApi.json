@@ -1,0 +1,956 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ExotischNederlandApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Fotos": {
+      "get": {
+        "tags": [
+          "Fotos"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Fotos"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Fotos"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Fotos"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Fotos"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Fotos/{naam}": {
+      "delete": {
+        "tags": [
+          "Fotos"
+        ],
+        "parameters": [
+          {
+            "name": "naam",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/FotoWaarneming": {
+      "get": {
+        "tags": [
+          "FotoWaarneming"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "FotoWaarneming"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FotoWaarneming"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FotoWaarneming"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/FotoWaarneming"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/FotoWaarneming/{naam}": {
+      "delete": {
+        "tags": [
+          "FotoWaarneming"
+        ],
+        "parameters": [
+          {
+            "name": "naam",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Gebruikers": {
+      "get": {
+        "tags": [
+          "Gebruikers"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Gebruikers"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Gebruiker"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Gebruiker"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Gebruiker"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Gebruikers/{naam}": {
+      "delete": {
+        "tags": [
+          "Gebruikers"
+        ],
+        "parameters": [
+          {
+            "name": "naam",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Geluiden": {
+      "get": {
+        "tags": [
+          "Geluiden"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Geluiden"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Geluiden"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Geluiden"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Geluiden"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Geluiden/{naam}": {
+      "delete": {
+        "tags": [
+          "Geluiden"
+        ],
+        "parameters": [
+          {
+            "name": "naam",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/GeluidWaarneming": {
+      "get": {
+        "tags": [
+          "GeluidWaarneming"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "GeluidWaarneming"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GeluidWaarneming"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GeluidWaarneming"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GeluidWaarneming"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/GeluidWaarneming/{naam}": {
+      "delete": {
+        "tags": [
+          "GeluidWaarneming"
+        ],
+        "parameters": [
+          {
+            "name": "naam",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Locaties": {
+      "get": {
+        "tags": [
+          "Locaties"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Locaties"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Locatie"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Locatie"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Locatie"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Locaties/{naam}": {
+      "delete": {
+        "tags": [
+          "Locaties"
+        ],
+        "parameters": [
+          {
+            "name": "naam",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Soorten": {
+      "get": {
+        "tags": [
+          "Soorten"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Soorten"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Soorten"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Soorten"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Soorten"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Soorten/{naam}": {
+      "delete": {
+        "tags": [
+          "Soorten"
+        ],
+        "parameters": [
+          {
+            "name": "naam",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Waarnemingen": {
+      "get": {
+        "tags": [
+          "Waarnemingen"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Waarnemingen"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Waarneming"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Waarneming"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Waarneming"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Waarnemingen/{naam}": {
+      "delete": {
+        "tags": [
+          "Waarnemingen"
+        ],
+        "parameters": [
+          {
+            "name": "naam",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Weblinks": {
+      "get": {
+        "tags": [
+          "Weblinks"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Weblinks"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Weblinks"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Weblinks"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Weblinks"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Weblinks/{naam}": {
+      "delete": {
+        "tags": [
+          "Weblinks"
+        ],
+        "parameters": [
+          {
+            "name": "naam",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/WeblinkWaarnemingen": {
+      "get": {
+        "tags": [
+          "WeblinkWaarnemingen"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "WeblinkWaarnemingen"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WeblinkWaarneming"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WeblinkWaarneming"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/WeblinkWaarneming"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/WeblinkWaarnemingen/{naam}": {
+      "delete": {
+        "tags": [
+          "WeblinkWaarnemingen"
+        ],
+        "parameters": [
+          {
+            "name": "naam",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Wetenschappelijkenamen": {
+      "get": {
+        "tags": [
+          "Wetenschappelijkenamen"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Wetenschappelijkenamen"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Wetenschappelijkenaam"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Wetenschappelijkenaam"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Wetenschappelijkenaam"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Wetenschappelijkenamen/{naam}": {
+      "delete": {
+        "tags": [
+          "Wetenschappelijkenamen"
+        ],
+        "parameters": [
+          {
+            "name": "naam",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "FotoWaarneming": {
+        "type": "object",
+        "properties": {
+          "wid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fid": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Fotos": {
+        "type": "object",
+        "properties": {
+          "fid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "foto": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Gebruiker": {
+        "type": "object",
+        "properties": {
+          "weergavenaam": {
+            "type": "string",
+            "nullable": true
+          },
+          "naam": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "biografie": {
+            "type": "string",
+            "nullable": true
+          },
+          "taal": {
+            "type": "string",
+            "nullable": true
+          },
+          "geslacht": {
+            "type": "string",
+            "nullable": true
+          },
+          "geboortejaar": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "telefoonnummer": {
+            "type": "string",
+            "nullable": true
+          },
+          "land": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GeluidWaarneming": {
+        "type": "object",
+        "properties": {
+          "wid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "gid": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Geluiden": {
+        "type": "object",
+        "properties": {
+          "gid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "geluid": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Locatie": {
+        "type": "object",
+        "properties": {
+          "lid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "locatienaam": {
+            "type": "string",
+            "nullable": true
+          },
+          "provincie": {
+            "type": "string",
+            "nullable": true
+          },
+          "breedtegraad": {
+            "type": "number",
+            "format": "float"
+          },
+          "lengtegraad": {
+            "type": "number",
+            "format": "float"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Soorten": {
+        "type": "object",
+        "properties": {
+          "sid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "soort": {
+            "type": "string",
+            "nullable": true
+          },
+          "voorkomen": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Waarneming": {
+        "type": "object",
+        "properties": {
+          "wid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "omschrijving": {
+            "type": "string",
+            "nullable": true
+          },
+          "sid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "datum": {
+            "type": "string",
+            "nullable": true
+          },
+          "tijd": {
+            "type": "string",
+            "nullable": true
+          },
+          "wNid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "toelichting": {
+            "type": "string",
+            "nullable": true
+          },
+          "aantal": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "geslacht": {
+            "type": "string",
+            "nullable": true
+          },
+          "gebruiker": {
+            "type": "string",
+            "nullable": true
+          },
+          "zekerheid": {
+            "type": "string",
+            "nullable": true
+          },
+          "webid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "manierDelen": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeblinkWaarneming": {
+        "type": "object",
+        "properties": {
+          "wid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "webid": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Weblinks": {
+        "type": "object",
+        "properties": {
+          "webid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "weblink": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Wetenschappelijkenaam": {
+        "type": "object",
+        "properties": {
+          "wNid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "naam": {
+            "type": "string",
+            "nullable": true
+          },
+          "wetenschappelijkeNaam": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
